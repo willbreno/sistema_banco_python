@@ -8,8 +8,6 @@ deposito = float(0)
 
 sacar = float(0)
 
-i = int(0)
-
 saques = int(0)
 
 menu_texto = '''
@@ -55,7 +53,7 @@ while True:
 
             input('\n Pressione qualquer tecla para continuar')
     
-    elif menu ==2:
+    elif menu == 2:
 
         print(' \n Insira o valor em R$ que deseja sacar \n')
         
@@ -67,7 +65,7 @@ while True:
 
                 saldo -= sacar
 
-                saques +=1
+                saques += 1
                 
                 ext_saque = - sacar
 
@@ -77,13 +75,11 @@ while True:
 
                 input('\n Pressione qualquer tecla para continuar')
 
-
-            
             else:
 
                 if sacar > 500:
 
-                    print('Valor de saque maior do que o permitido, refaça o saque com limite máximo de R$: 500,00 reais\n')
+                    print('Valor de saque maior que o permitido, refaça o saque com limite de R$: 500,00 reais\n')
 
                     input('\n Pressione qualquer tecla para continuar')
 
@@ -96,8 +92,6 @@ while True:
             print(f'A tentativa de saque no valor R$:{sacar: .2f} é maior que o saldo de R$:{saldo: .2f}')
 
             input('\n Pressione qualquer tecla para continuar')
-
-
     elif menu == 3:
 
         print('\n Esses são os últimos movimentos realizados em sua conta: \n')
@@ -108,19 +102,19 @@ while True:
 
             exibir_extrato += f'### R${movimento: .2f}\n'
 
-
         print(exibir_extrato)
 
-        
         print(f'O saldo total é R$:  {saldo: .2f}')
 
         input('\n Pressione qualquer tecla para continuar')
 
     elif menu == 4:
 
+        print("Obrigado por usar nosso banco. Até mais!\n")
+
         break
 
-        print("Obrigado por usar nosso banco. Até mais!\n")
+
 
 
     
