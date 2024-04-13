@@ -115,13 +115,13 @@ Substitua nome_do_programa.py pelo nome do arquivo Python que contém o código 
 
 <h4 align="center">
 
-<a href="https://github.com/willbreno"><img src="https://avatars.githubusercontent.com/u/112733668?s=400&u=2c81b93ce2fc651d321a92b983d33775ee026c76&v=4" title="willbreno" alt="willbreno" width="50" height="50"></a>
+<a href="https://github.com/willbreno"><img src="https://avatars.githubusercontent.com/u/112733668?s=400&u=2c81b93ce2fc651d321a92b983d33775ee026c76&v=4" title="willbreno" alt="willbreno" width="80" height="50"></a>
 
 
 ## Contato : 
 <h4 align="center">
   <a href="https://www.linkedin.com/in/breno-willian-109823a6/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" title="Linkedin"style="height: 30px;">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" title="Linkedin"style="height: 40px;">
   </a>
 
 
